@@ -1,8 +1,8 @@
 {
-  "description": "Close the Zoom tab once it's redirected to Zoom",
+  "description": "Close the tab automatically once you join your meeting",
   "homepage_url": "https://github.com/grrttedwards/zoom-tab-closer",
   "manifest_version": 2,
-  "name": "Zoom tab closer",
+  "name": "Tab Closer for Zoom",
   "permissions": [
     "activeTab",
     "tabs"
