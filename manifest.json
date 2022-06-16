@@ -4,7 +4,6 @@
   "manifest_version": 2,
   "name": "Tab Closer for Zoom",
   "permissions": [
-    "activeTab",
     "tabs"
   ],
   "background": {
