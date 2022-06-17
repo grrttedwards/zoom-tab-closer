@@ -1,7 +1,7 @@
 const waitMs = 5000;
 
 function closeZoomTabOnSuccessListener(tabId, changeInfo, tab) {
-  if (tab.url.match(/https:\/\/.+?\.zoom\.us\/.+?success.*/)) {
+  if (tab.url.match(/https:\/\/(?:.+\.)*?zoom\.us\/.+?success.*/)) {
     console.debug(`Detected #success, closing tab in ${waitMs} ms`);
     setTimeout(() => {
       console.debug(`Closed tab ID ${tabId}`);
