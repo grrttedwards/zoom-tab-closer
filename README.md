@@ -10,8 +10,15 @@ And Chrome here:
 
 https://chrome.google.com/webstore/detail/zoom-tab-closer/dipbdmjcnihnpjpignoilhljekeimlkp?hl=en
 
+
 ## Develop
 
 1. Make changes
 1. Run `./build.ps1`
-1. Upload extension to respective hosts
+1. Create github release
+1. Upload zip to respective hosts
+
+
+### Tests?
+
+Click Unit Tests on https://regex101.com/r/ZMxEBP/1
