@@ -1,16 +1,17 @@
 {
   "description": "Close the tab automatically once you join your meeting",
   "homepage_url": "https://github.com/grrttedwards/zoom-tab-closer",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Tab Closer for Zoom",
   "permissions": [
+    "alarms",
     "tabs"
   ],
   "background": {
-    "scripts": ["background.js"]
+    "service_worker": "background.js"
   },
   "icons": {
     "128": "icon-128.png"
   },
-  "version": "0.3.5"
+  "version": "0.3.5.1"
 }
